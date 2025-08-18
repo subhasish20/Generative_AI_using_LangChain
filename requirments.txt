@@ -20,6 +20,7 @@ huggingface-hub
 
 # Environment Variable Management
 python-dotenv
+dotenv
 
 # Machine Learning Utilities
 numpy

@@ -13,7 +13,7 @@ model = ChatGoogleGenerativeAI(model='gemini-2.5-flash')
 st.header("Research Paper Summarizer")
 
 # User input
-selected_paper = st.selectbox("Select a Research Paper:", ["Attention Is All You Need", "Word2Vec", "BERT", "GPT-3"])
+selected_paper = st.selectbox("Select a Research Paper:", [ "Word2Vec", "BERT", "GPT-3"])
 explanation_style = st.selectbox("Choose Explanation Style:", ["Simple", "Math Heavy", "Code Heavy"])
 explanation_length = st.selectbox("Choose Explanation Length:", ["Short", "Medium", "Long"])
 
