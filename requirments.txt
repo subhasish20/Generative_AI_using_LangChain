@@ -25,6 +25,9 @@ dotenv
 # Machine Learning Utilities
 numpy
 
+# others
+langchain-community
+
 # web ui 
 flask
 streamlit
